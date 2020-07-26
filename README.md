@@ -1,5 +1,5 @@
 # HabitTrackers
-FOLDER STRUCTURE
+FOLDER STRUCTURE:
 
 
 1.routes
@@ -14,11 +14,12 @@ FOLDER STRUCTURE
 
 6.config
 
-Routes
+Routes:
+
 
 Request from browser to server controls through this folder.
 
-Controllers
+Controllers:
 
 a) Home:
 
@@ -46,17 +47,17 @@ c) Detail:
           Detail in numbers of task done,undone,none and
           also we can delete a particular habit.
 
-Models
+Models:
 
 
 Schema of a table.
 
-Assets
+Assets:
 
 
 static files css,js.
 
-Config
+Config:
 
 
 Connect to Mongodb.
