@@ -1,4 +1,4 @@
-# habitTrackers
+# HabitTrackers
 FOLDER STRUCTURE
 
 1.routes
