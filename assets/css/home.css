@@ -1,0 +1,10 @@
+body{
+    background-color: lavender;
+}
+input,a{
+    margin:10px;
+}
+input{
+    outline:none;
+    border-radius:5px;
+}

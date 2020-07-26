@@ -1,0 +1,19 @@
+body{
+    background-color:whitesmoke;
+}
+.containers{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    flex:1;
+    margin:10px;
+    padding:10px;
+    color:purple;
+    width:90%;
+}
+.containers div{
+    border-bottom: 2px solid grey;
+}
+ul{
+    list-style: none;
+}

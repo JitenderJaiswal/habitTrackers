@@ -1,0 +1,29 @@
+<html>
+<head>
+    <script src="https://kit.fontawesome.com/8fa059ce7b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/detail.css"> 
+</head>
+<body>
+    <a class="btn btn-primary" style="margin:10px;"href="/" role="button"><i class="fas fa-plus"></i></a>
+    <a class="btn btn-primary" href="/users/find" role="button">Week View</a>
+<a class="btn btn-primary" href="/users/detail" role="button">Detail View</a>
+    <div class="containers">
+            <ul><%for(let i=0;i<habits.length;i++){%>
+                <h1><%=habits[i]%></h1>
+                   <div><li>
+                    <a href="/users/delete/<%=habits[i]%>"><button type="button" class="btn btn-outline-danger"><i class="fas fa-trash-alt"></i></button></a> 
+                    <!--<a href="/users/delete"><input type="checkbox" name="check" value="<%=habits[i]%>"></a>-->
+                                       <span>Done: <%=tasks[i].done%></span>
+                                       <span>NotDone: <%=tasks[i].Notdone%></span>
+                                       <span>Total: <%=tasks[i].total%></span>
+                                       <i class="fa fa-star-o"></i>   
+                                   </li>
+                    </div>
+                <%}%>
+            </ul>
+        </div>
+
+<script src="/js/detail.js"></script>
+</body>
+</html>
