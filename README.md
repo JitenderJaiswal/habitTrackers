@@ -34,11 +34,14 @@ b) Users:
 3.Views:
 
 a) Home:
+
           Add a habit
 b) Week:
+
           Display current date status and also 6 previous days of a week.
           It is dynamic if user open the app on next day days and date will be change.
 c) Detail:
+
           Detail in numbers of task done,undone,none and
           also we can delete a particular habit.
 
