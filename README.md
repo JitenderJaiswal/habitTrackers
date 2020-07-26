@@ -1,6 +1,7 @@
 # HabitTrackers
 FOLDER STRUCTURE
 
+
 1.routes
 
 2.controllers(C)
@@ -47,12 +48,15 @@ c) Detail:
 
 Models
 
+
 Schema of a table.
 
 Assets
 
+
 static files css,js.
 
 Config
+
 
 Connect to Mongodb.
