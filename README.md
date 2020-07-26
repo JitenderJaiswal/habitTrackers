@@ -2,10 +2,15 @@
 FOLDER STRUCTURE
 
 1.routes
+
 2.controllers(C)
+
 3.views(V)
+
 4.models(M)
+
 5.assets
+
 6.config
 
 Routes
